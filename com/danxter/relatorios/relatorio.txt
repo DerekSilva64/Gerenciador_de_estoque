@@ -1,0 +1,7 @@
+| RELATÓRIO DE ESTOQUE DA APLICAÇÃO BODEGA |
+
+- O estoque possui 0 produtos armazenados
+
+| Listas de produtos cadastrados |
+
+[1] Código do produto: 001 | Nome do produto: coca | Preço do produto: 12.0 | Quantidade em estoque: 0
