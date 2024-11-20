@@ -28,7 +28,7 @@ public class DbConnect {
 		return connect;
 	}
 	
-	public static boolean adicionarUsuario(String nome, String descricao, String quantidade) {
+	public static boolean adicionarProduto(String nome, String descricao, String quantidade) {
         String sql = "INSERT INTO produtos (nome,descricao,quantidade) VALUES (?,?,?)";
 
         try (Connection connection = conexaoBancoDeDados(); 
@@ -49,7 +49,7 @@ public class DbConnect {
         }
     }
 	
-	public static List<Produto> buscarTodosUsuarios() {
+	public static List<Produto> buscarTodosProdutos() {
         String sql = "SELECT * FROM produtos";
         List<Produto> usuarios = new ArrayList<>();
 

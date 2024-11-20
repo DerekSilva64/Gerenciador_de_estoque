@@ -48,13 +48,13 @@ public class Main {
             		System.out.print("Insira a quantidade estocada do produto: ");
             		quantidadeProduto = scan.nextInt();
             		
-            		DbConnect.adicionarUsuario(nomeProduto, descricaoProduto, Integer.toString(quantidadeProduto));
+            		DbConnect.adicionarProduto(nomeProduto, descricaoProduto, Integer.toString(quantidadeProduto));
             		
             		break;
             		
             	case "2":
             		
-            		List<Produto> tudo = DbConnect.buscarTodosUsuarios();
+            		List<Produto> tudo = DbConnect.buscarTodosProdutos();
             		System.out.println(tudo.toString());
             		
 
