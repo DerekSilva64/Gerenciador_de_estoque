@@ -16,13 +16,12 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", quantidade='" + quantidade + '\'' +
-                '}';
+        return "\nID: " + id + "\n" +
+        		"Nome: " + nome + "\n" +
+        		"Descricao: " + descricao + "\n" +
+        		"Quantidade: " + quantidade + "\n";
     }
+
 
 //=| Getters |==========================================================================================================
 
